@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+.list-item > code {
+  color: green;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+#assignment-instructions {
+  color: dodgerblue;
+  font-family: sans-serif;
+}
+
+li {
+  font-family: cursive;
+}
+
+.list-item ~ li {
+  background-color: black;
+  color: white;
+}
+
+ol li {
+  background-color: black;
+  color: white;
+}
