@@ -2,29 +2,36 @@ body {
   font-family: sans-serif;
 }
 
-.list-item > code {
+#assignment-instructions {
+  font-family: sans-serif;
+  color: blue;
+}
+.highlighted-code {
   color: green;
 }
+/* [id] {
+  font-family: sans-serif;
+  color: red;
+} */
 
 code {
   font-family: monospace;
   color: red;
 }
 
-#assignment-instructions {
-  color: dodgerblue;
-  font-family: sans-serif;
-}
-
-li {
-  font-family: cursive;
-}
-
-.list-item ~ li {
+/* li ~ li {
+  background-color: black;
+  color: white;
+} */
+li + li {
   background-color: black;
   color: white;
 }
 
+/* ol > li {
+  background-color: black;
+  color: white;
+} */
 ol li {
   background-color: black;
   color: white;
